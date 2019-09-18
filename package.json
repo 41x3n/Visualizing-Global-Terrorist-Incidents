@@ -1,27 +1,18 @@
 {
-  "name": "Visualizing-Global-Terrorist-Incidents",
+  "name": "visualization",
   "version": "1.0.0",
-  "description": "Visualizing Global Terrorist Incidents Through Web Scraping",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "env-cmd -f ./config/dev.env node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/41x3n/Visualizing-Global-Terrorist-Incidents.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/41x3n/Visualizing-Global-Terrorist-Incidents/issues"
-  },
-  "homepage": "https://github.com/41x3n/Visualizing-Global-Terrorist-Incidents#readme",
   "dependencies": {
-    "ejs": "^2.7.1",
+    "ejs": "^2.6.1",
     "express": "^4.17.1",
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.5.13"
   },
   "devDependencies": {
     "env-cmd": "^10.0.1"

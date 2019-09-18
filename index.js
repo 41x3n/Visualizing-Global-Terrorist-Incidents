@@ -3,8 +3,8 @@ const   express = require("express"),
         fs = require('fs'),
         mongoose = require("mongoose");
 
-app.set("view engine", "ejs");
-const port = process.env.PORT
+        app.set("view engine", "ejs");
+
 let dev_db_url = process.env.DB;
 
 let mongoDB = process.env.MONGODB_URI || dev_db_url;
@@ -257,6 +257,6 @@ app.get("/", function(req, res){
 
 
 
-app.listen(port, function(){
+app.listen(process.env.PORT, function(){
     console.log("The MonGo Server Has Started!");
 });
